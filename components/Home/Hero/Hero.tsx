@@ -14,7 +14,7 @@ const Hero = () => {
                 News
               </div>
               <p className="text-xs sm:text-sm">
-                We have updated our Term's and Condition's Policy
+                We have updated our Term&apos;s and Condition&apos;s Policy
               </p>
             </div>
             {/* Hero Section */}
