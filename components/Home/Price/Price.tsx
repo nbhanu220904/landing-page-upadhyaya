@@ -3,7 +3,7 @@ import PriceCard from "./PriceCard";
 
 const Price = () => {
   return (
-    <div className="pt-16 pb-16 bg-white">
+    <div className="pt-16 pb-16 bg-gray-50">
       <h1 className="mt-6 text-2xl md:text-3xl capitalize font-bold text-center">
         Find Your Ideal Plan
       </h1>

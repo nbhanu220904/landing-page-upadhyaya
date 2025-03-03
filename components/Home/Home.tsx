@@ -4,6 +4,8 @@ import WhyChoose from "./WhyChoose/WhyChoose";
 import AnalyticsFeature from "./AnalyticsFeature/AnalyticsFeature";
 import Feature from "./Feature/Feature";
 import Price from "./Price/Price";
+import Offer from "./Offer/Offer";
+// import Footer from "./Footer/Footer";
 // import Review from "./Review/Review";
 
 const Home = () => {
@@ -15,6 +17,8 @@ const Home = () => {
       <Feature />
       {/* <Review /> */}
       <Price />
+      <Offer />
+      {/* <Footer /> */}
     </div>
   );
 };
