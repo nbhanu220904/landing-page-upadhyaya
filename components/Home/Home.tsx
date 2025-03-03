@@ -3,6 +3,8 @@ import Hero from "./Hero/Hero";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import AnalyticsFeature from "./AnalyticsFeature/AnalyticsFeature";
 import Feature from "./Feature/Feature";
+import Price from "./Price/Price";
+// import Review from "./Review/Review";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <WhyChoose />
       <AnalyticsFeature />
       <Feature />
+      {/* <Review /> */}
+      <Price />
     </div>
   );
 };
