@@ -8,7 +8,7 @@ const WhyChoose = () => {
         Why you choose this application
       </h1>
       <div className="mt-20 grid w-[90%] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
-        <div>
+        <div data-aos="fade-right" data-aos-anchor-placement="top-center">
           <WhyChooseCard
             image="/i1.png"
             title="Create Free Account"
@@ -16,7 +16,11 @@ const WhyChoose = () => {
             linkText="Get Started"
           />
         </div>
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+        >
           <WhyChooseCard
             image="/i2.png"
             title="Monitor Learning Progress"
@@ -24,7 +28,11 @@ const WhyChoose = () => {
             linkText="Sign Up for Free"
           />
         </div>
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+        >
           <WhyChooseCard
             image="/i3.png"
             title="Safe & Trusted"
@@ -32,7 +40,11 @@ const WhyChoose = () => {
             linkText="Get The App"
           />
         </div>
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="300"
+        >
           <WhyChooseCard
             image="/i4.png"
             title="24/7 Customer Support"
