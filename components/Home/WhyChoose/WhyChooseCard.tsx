@@ -20,6 +20,7 @@ import Image from "next/image";
 type Props = {
   title: string;
   image: string;
+  description: string;
   linkText: string;
 };
 
