@@ -41,21 +41,26 @@ const Hero = () => {
             {/* Play Store and App Store Images */}
             <div className="flex mt-8 mb-8 items-center space-x-4">
               {/* Google PlayStore */}
-              <Image
+              {/* <Image
                 src="/gp.png"
                 alt="Google Play Store"
                 width={150}
                 height={150}
                 className="object-contain"
-              />
+              /> */}
               {/* App Store */}
-              <Image
+              {/* <Image
                 src="/as.png"
                 alt="App Store"
                 width={150}
                 height={150}
                 className="object-contain"
-              />
+              /> */}
+            </div>
+            <div className="flex justify-center">
+              <button className="md:px-8 md:py-2.5 px-10 py-2 text-white font-semibold text-base bg-blue-600 hover:bg-blue-800 transition-all duration-200 rounded-full cursor-pointer">
+                Get Started &#8594;
+              </button>
             </div>
           </div>
           {/* Image Content */}
